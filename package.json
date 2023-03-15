@@ -1,0 +1,32 @@
+{
+    "name": "strapi-plugin-timezone-select",
+    "description": "A strapi custom field for selecting any timezone based on the moment.js timezones.",
+    "keywords": [
+        "strapi",
+        "strapi-plugin",
+        "custom-fields",
+        "timezone"
+    ],
+    "version": "1.0.0",
+    "strapi": {
+        "name": "timezone-select",
+        "description": "Timezone Select custom field",
+        "kind": "plugin",
+        "displayName": "Timezone Select"
+    },
+    "dependencies": {
+    },
+    "author": {
+        "name": "Cédric Pontet",
+        "email": "cedric.pontet@gmail.com",
+        "url": "https://play14.org/players/cedric-pontet"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "@strapi/strapi": "^4.7.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/play14team/strapi-plugin-timezone-select.git"
+    }
+}
