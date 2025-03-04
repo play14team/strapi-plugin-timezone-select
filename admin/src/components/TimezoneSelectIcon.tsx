@@ -1,8 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Icon } from '@strapi/design-system/Icon';
 import { Flex } from '@strapi/design-system/Flex';
-import Clock from '@strapi/icons/Clock';
+import { Icon } from '@strapi/design-system/Icon';
+import { Clock } from '@strapi/icons';
+import styled from 'styled-components';
 
 const IconBox = styled(Flex)`
     background-color: #f0f0ff; /* primary100 */

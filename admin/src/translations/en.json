@@ -1,4 +1,5 @@
 {
     "timezone-select.label": "Timezone",
-    "timezone-select.description": "Select any timezone"
+    "timezone-select.description": "Select any time zone",
+    "unsupported-timezone": "Unsupported time zone \"{timezone}\""
 }
