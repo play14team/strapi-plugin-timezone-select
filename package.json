@@ -22,7 +22,6 @@
   "exports": {
     "./package.json": "./package.json",
     "./strapi-admin": {
-      "types": "./dist/admin/src/index.d.ts",
       "source": "./admin/src/index.ts",
       "import": "./dist/admin/index.mjs",
       "require": "./dist/admin/index.js",
