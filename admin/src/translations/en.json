@@ -1,4 +1,7 @@
 {
-    "timezone-select.label": "Timezone",
-    "timezone-select.description": "Select any timezone"
+  "timezone-select.plugin.name": "timezone",
+  "timezone-select.label": "Time zone",
+  "timezone-select.description": "Select any time zone",
+  "timezone-select.unsupported-timezone": "Unsupported time zone \"{timezone}\"",
+  "timezone-select.default-value-description": "Has to follow the time zone designations form the IANA Time Zone Database format i.e. America/New_York or Europe/London."
 }
