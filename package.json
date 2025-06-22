@@ -31,7 +31,7 @@
   "dependencies": {
     "@strapi/design-system": "^2.0.0-rc.18",
     "@strapi/icons": "^2.0.0-rc.18",
-    "moment-timezone": "^0.5.47",
+    "moment-timezone": "^0.6.0",
     "react-intl": "^7.1.6"
   },
   "devDependencies": {
