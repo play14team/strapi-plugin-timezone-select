@@ -15,38 +15,32 @@ Examples:
 To install this plugin, you need to add an NPM dependency to your Strapi application:
 
 ```
-# Using yarn
+# Using Yarn
 yarn add strapi-plugin-timezone-select
 
-# Or using npm
+# Or using NPM
 npm install strapi-plugin-timezone-select
-
-# Or using pnpm
-pnpm install strapi-plugin-timezone-select
 ```
 
 Then, you'll need to build your admin panel:
 
 ```
-# Using yarn
+# Using Yarn
 yarn build
 
-# Or using npm
+# Or using NPM
 npm run build
-
-# Or using pnpm
-pnpm build
 ```
 
 ## Usage
 
 After installation you will find the timezone-select at the custom fields section of the content-type builder.
 
-![timezone select screenshot](./assets/timezone-select-custom-field.png)
+![timezone select screenshot](./timezone-select-custom-field.png)
 
 Now you can select any country from the list. The Alpha-2 code of the selected timezone is stored in the database.
 
-![timezone select screenshot](./assets/timezone-select.png)
+![timezone select screenshot](./timezone-select.png)
 
 ## Related
 
