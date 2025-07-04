@@ -1,4 +1,9 @@
 {
-    "timezone-select.label": "Timezone",
-    "timezone-select.description": "Select any timezone"
+  "timezone-select.label": "Time zone",
+  "timezone-select.placeholder": "Select a time zone or start typing the name of a city",
+  "timezone-select.aria-label": "Time zone",
+  "timezone-select.description": "Select a time zone",
+  "plugin.description.long": "A Strapi custom field to select a Olson/IANA time zone (e.g. Europe/Paris, America/New_York, UTC, Etc/GMT+8).",
+  "plugin.description.short": "A Strapi custom field to select a time zone.",
+  "plugin.name": "Timezone select"
 }

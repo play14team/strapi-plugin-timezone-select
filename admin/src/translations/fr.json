@@ -1,4 +1,9 @@
 {
-    "timezone-select.label": "Fuseau horaire",
-    "timezone-select.description": "Selectionnez un fuseau horaire"
+  "timezone-select.label": "Fuseau horaire",
+  "timezone-select.placeholder": "Selectionner un fuseau horaire ou commencer à taper le nom d'une ville",
+  "timezone-select.aria-label": "Fuseau horaire",
+  "timezone-select.description": "Selectionner un fuseau horaire",
+  "plugin.description.long": "Un champ custom Strapi pour selectionner un fuseau horaire Olson/IANA (ex. Europe/Paris, America/New_York, UTC, Etc/GMT+8).",
+  "plugin.description.short": "Un champ custom Strapi pour selectionner un fuseau horaire.",
+  "plugin.name": "Timezone select"
 }

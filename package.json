@@ -1,32 +1,77 @@
 {
-    "name": "strapi-plugin-timezone-select",
-    "description": "A strapi custom field for selecting any timezone based on the moment.js timezones.",
-    "keywords": [
-        "strapi",
-        "strapi-plugin",
-        "custom-fields",
-        "timezone"
-    ],
-    "version": "1.0.0",
-    "strapi": {
-        "name": "timezone-select",
-        "description": "Timezone Select custom field",
-        "kind": "plugin",
-        "displayName": "Timezone Select"
+  "version": "2.0.0",
+  "keywords": [],
+  "type": "commonjs",
+  "exports": {
+    "./package.json": "./package.json",
+    "./strapi-admin": {
+      "types": "./dist/admin/src/index.d.ts",
+      "source": "./admin/src/index.ts",
+      "import": "./dist/admin/index.mjs",
+      "require": "./dist/admin/index.js",
+      "default": "./dist/admin/index.js"
     },
-    "dependencies": {
-    },
-    "author": {
-        "name": "Cédric Pontet",
-        "email": "cedric.pontet@gmail.com",
-        "url": "https://play14.org/players/cedric-pontet"
-    },
-    "license": "MIT",
-    "peerDependencies": {
-        "@strapi/strapi": "^4.7.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/play14team/strapi-plugin-timezone-select.git"
+    "./strapi-server": {
+      "types": "./dist/server/src/index.d.ts",
+      "source": "./server/src/index.ts",
+      "import": "./dist/server/index.mjs",
+      "require": "./dist/server/index.js",
+      "default": "./dist/server/index.js"
     }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "strapi-plugin build",
+    "watch": "strapi-plugin watch",
+    "watch:link": "strapi-plugin watch:link",
+    "verify": "strapi-plugin verify",
+    "test:ts:front": "run -T tsc -p admin/tsconfig.json",
+    "test:ts:back": "run -T tsc -p server/tsconfig.json"
+  },
+  "dependencies": {
+    "@strapi/design-system": "2.0.0-beta.6",
+    "@strapi/icons": "2.0.0-beta.6",
+    "react-intl": "^7.1.11"
+  },
+  "devDependencies": {
+    "@strapi/sdk-plugin": "^5.3.2",
+    "@strapi/strapi": "^5.17.0",
+    "@strapi/typescript-utils": "^5.17.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "prettier": "^3.6.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "styled-components": "^6.1.19",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@strapi/sdk-plugin": "^5.3.2",
+    "@strapi/strapi": "^5.17.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "styled-components": "^6.1.19"
+  },
+  "strapi": {
+    "kind": "plugin",
+    "name": "timezone-select",
+    "displayName": "Timezone Select",
+    "description": "A Strapi custom field to select a Olson/IANA time zone (e.g. Africa/Ndjamena America/New_York, Asia/Bangkok, Europe/Paris, Oceania/Sydney)"
+  },
+  "name": "strapi-plugin-timezone-select",
+  "description": "A Strapi custom field to select a Olson/IANA time zone (e.g. Africa/Ndjamena America/New_York, Asia/Bangkok, Europe/Paris, Oceania/Sydney)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/play14team/strapi-plugin-timezone-select.git"
+  },
+  "bugs": {
+    "url": "https://github.com/play14team/strapi-plugin-timezone-select/issues"
+  },
+  "homepage": "https://github.com/play14team/strapi-plugin-timezone-select#readme",
+  "author": "Cédric PONTET <cedric.pontet@gmail.com>"
 }
