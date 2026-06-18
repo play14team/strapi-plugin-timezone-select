@@ -1,7 +1,6 @@
 import { Main } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 import { getTranslation } from '../utils/getTranslation';
-import { TimezoneSelect } from 'src/components/TimezoneSelect';
 
 const HomePage = () => {
   const { formatMessage } = useIntl();

@@ -34,10 +34,6 @@ const TimezoneSelect = React.forwardRef<HTMLDivElement, TimezoneSelectProps>(
           {name}
         </Field.Label>
         <Combobox
-          label={formatMessage({
-            id: getTranslation('label'),
-            defaultMessage: 'Select a time zone',
-          })}
           placeholder={formatMessage({
             id: getTranslation('placeholder'),
             defaultMessage: 'Select a time zone or start typing the name of a city',

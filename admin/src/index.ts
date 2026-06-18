@@ -7,7 +7,7 @@ export default {
   register(app: any) {
     app.customFields.register({
       name: 'timezone',
-      plugnId: PLUGIN_ID,
+      pluginId: PLUGIN_ID,
       type: 'string',
       icon: TimezoneSelectIcon,
       intlLabel: {

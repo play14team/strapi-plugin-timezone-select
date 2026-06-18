@@ -4,6 +4,7 @@ const register = ({ strapi }: { strapi: Core.Strapi }) => {
   strapi.customFields.register({
     name: 'timezone',
     type: 'text',
+    plugin: 'timezone-select',
   });
 };
 
